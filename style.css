@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#titre{
+    background-color: aquamarine;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 5px 2px 4px gray;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.h2{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#img{
+    width: 40%;
+    height: 40%;
+    border-radius: 25px;
+}
+
+table{
+    border-collapse: separate;
+    border : 5px solid blue;
+    border-spacing: 50px 20px;
+    display: flex;
+    justify-content:center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+th{
+    border: 3px dotted blue;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    margin-right: 25%;
+    margin-left: 30%;
+}
+
+#travel{
+    list-style-position: outside;
+}
+#motorbike{
+    list-style-position: outside;
+}
+#work{
+    list-style-position: outside;
+}
+#save{
+    list-style-position: outside;
+}
+#psy{
+    list-style-position: outside;
+}
+#code{
+    list-style-position: outside;
+}
+
+
+
+a:link{
+    text-decoration: none;
+    color:rgb(253, 156, 253);
+    padding: 50px;
+}
+a:visited{
+    color:rgb(17, 128, 148);
+}
+a:hover{
+    color: aquamarine;
+}
